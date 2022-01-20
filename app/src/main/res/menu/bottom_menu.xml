@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/cudifragmenti"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="erti"
+        tools:layout="@layout/cudifragment" />
+    <item
+        android:id="@+id/fragmenti"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="ori"
+        tools:layout="@layout/fragmenti" />
+</menu>

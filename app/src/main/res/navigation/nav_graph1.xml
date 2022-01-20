@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph1"
+    app:startDestination="@id/cudifragmenti">
+
+    <fragment
+        android:id="@+id/cudifragmenti"
+        android:name="com.example.myapplicationbottomnavigationmenu.cudifragmenti"
+        android:label="cudifragmenti"
+        tools:layout="@layout/cudifragment">
+        <action
+            android:id="@+id/action_cudifragmenti_to_fragmenti"
+            app:destination="@id/fragmenti" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmenti"
+        android:name="com.example.myapplicationbottomnavigationmenu.fragmenti"
+        android:label="fragmenti"
+        tools:layout="@layout/fragmenti"/>
+</navigation>
